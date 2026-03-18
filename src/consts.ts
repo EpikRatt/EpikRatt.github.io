@@ -3,7 +3,6 @@
 import type { Header, Footer, About, Project } from "./types.ts";
 
 import ProfilePic from "./assets/profile-pic.jpg";
-
 import BriefImage from "./assets/projects/brief.svg";
 
 export const SITE_URL: string = "https://matthewbridge.com";
@@ -20,14 +19,8 @@ export const meta = {
   projects: {
     title: "Projects | Matthew Bridge",
     description:
-      "Here are my projects — things I’ve built or things I’m working on.",
+      "Here are my projects — things I’ve built or am currently working on.",
   },
-  blog: {
-    title: "Blog | Matthew Bridge",
-    description:
-      "This is my blog — I'll probably remove this lol.",
-  },
-  // blog post title and description are taken from the variables in markdown file
 };
 
 export const header: Header = { logoTitle: "MB" };
@@ -46,7 +39,7 @@ export const about: About = {
   profilePic: ProfilePic,
   // parses html
   description:
-    "I'm a Computer Science student concentrating in AI with practical experience in enterprise IT support, hardware diagnostics, and lab instruction. Seeking to leverage a strong foundation in machine learning, full-stack programming, and systems administration to transition into a software engineering or machine learning development role.",
+    "Computer Science student concentrating in AI, with a background in Enterprise IT support. Looking to use a strong foundation in machine learning, full-stack development, and systems administration to transition to a software engineering or machine learning development role.",
   links: [
     // Lucide icons
     { icon: "Github", href: "https://github.com/EpikRatt/" },
@@ -54,22 +47,22 @@ export const about: About = {
   ],
   resumeHref:
     "https://docs.google.com/document/d/1mRAC7ekFLeKbJV7AjhhhxAJ1fN7XGpqvDKUFrRuNclU/edit?usp=share_link",
-  workExperience: [
+    education: [
+    {
+      title: "Bachelor of Computer Science",
+      timeline: "Sept 2023 - May 2027",
+      institution: "University of Massachusetts Dartmouth • Dartmouth, MA",
+      description:
+        "Studied core computer science fundamentals including Data Structures/Algorithms, Operating Systems, Machine Learning and Agential AI. With coding experience in Java, C/C#, JavaScript, and Python.",
+    },
+  ],
+    workExperience: [
     {
       title: "Test",
       timeline: "May 2024 - Oct 2024",
       company: "Master Millwork • Wareham, Massachusetts",
       description:
         "Update Description.",
-    },
-  ],
-  education: [
-    {
-      title: "Bachelor of Computer Science",
-      timeline: "Sept 2023 - May 2027",
-      institution: "University of Massachusetts Dartmouth • Dartmouth, MA",
-      description:
-        "Update Description",
     },
   ],
   // parses html
@@ -80,13 +73,11 @@ export const about: About = {
 export const projects: Project[] = [
   {
     logoImage: BriefImage,
-    title: "In Development",
-    techs: ["Field 1", "Field 2"],
+    title: "Agentic Calendar/Task Manager",
+    techs: ["React", "TypeScript"],
     description:
-      "Please Pardon our Dust.",
+      "Currently in Development. Please pardon our dust!",
     sourceHref: "",
     liveHref: "",
   },
 ];
-
-// add blog articles in /src/content/blog

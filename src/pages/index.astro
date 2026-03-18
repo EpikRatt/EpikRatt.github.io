@@ -45,24 +45,6 @@ import LucideIcon from "../components/LucideIcon.astro";
 
   <section class="mt-10">
     <h2>
-      <span class="fancy-highlight">Work Experience</span>
-    </h2>
-    <div class="mt-2 flex flex-col gap-6">
-      {
-        about.workExperience.map((exp) => (
-          <div>
-            <h3>{exp.title}</h3>
-            <div class="primary-badge my-1">{exp.timeline}</div>
-            <p class="mb-2">{exp.company}</p>
-            <p class="text-base-content/80">{exp.description}</p>
-          </div>
-        ))
-      }
-    </div>
-  </section>
-
-  <section class="mt-10">
-    <h2>
       <span class="fancy-highlight">Education</span>
     </h2>
     <div class="mt-2 flex flex-col gap-6">
@@ -73,6 +55,24 @@ import LucideIcon from "../components/LucideIcon.astro";
             <div class="primary-badge my-1">{edu.timeline}</div>
             <p class="mb-2">{edu.institution}</p>
             <p class="text-base-content/80">{edu.description}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <h2>
+      <span class="fancy-highlight">Work Experience</span>
+    </h2>
+    <div class="mt-2 flex flex-col gap-6">
+      {
+        about.workExperience.map((exp) => (
+          <div>
+            <h3>{exp.title}</h3>
+            <div class="primary-badge my-1">{exp.timeline}</div>
+            <p class="mb-2">{exp.company}</p>
+            <p class="text-base-content/80">{exp.description}</p>
           </div>
         ))
       }
