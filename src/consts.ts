@@ -51,28 +51,30 @@ export const about: About = {
     // Lucide icons
     { icon: "Github", href: "https://github.com/EpikRatt/" },
     { icon: "Linkedin", href: "https://www.linkedin.com/in/matthew-l-bridge" },
-    { icon: "Email", href: "MBridge6429@gmail.com"},
   ],
   resumeHref:
     "https://docs.google.com/document/d/1mRAC7ekFLeKbJV7AjhhhxAJ1fN7XGpqvDKUFrRuNclU/edit?usp=share_link",
   workExperience: [
     {
-      title: "Full Stack Developer Intern",
+      title: "Test",
       timeline: "May 2024 - Oct 2024",
-      company: "Rabbitsquare • India",
+      company: "Master Millwork • Wareham, Massachusetts",
       description:
-        "Developed a LAMP stack web solution for a Civil Service academy, including a customizable public website, management portal, user portal, and exam result publishing system.",
+        "Update Description.",
     },
   ],
   education: [
     {
-      title: "Bachelor of Computer Application",
-      timeline: "Jun 2022 - Apr 2025",
-      institution: "Nirmala College Muvattupuzha • India",
+      title: "Bachelor of Computer Science",
+      timeline: "Sept 2023 - May 2027",
+      institution: "University of Massachusetts Dartmouth • Dartmouth, MA",
       description:
-        "Studied core computer science fundamentals including programming languages, data structures, algorithms, operating systems, and networking, with practical experience in Java, C/C++, JavaScript, PHP, and Linux.",
+        "Update Description",
     },
   ],
+  // parses html
+  getInTouch:
+    "Send me an email at <a href='mailto:mbridge6429@gmail.com' class='primary-underline'>MBridge6429@gmail.com</a>.",
 };
 
 export const projects: Project[] = [
