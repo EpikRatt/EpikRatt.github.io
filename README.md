@@ -1,4 +1,6 @@
 # Portfolio Website
+Welcome to my Portfolio Website! Simple as it maybe right now (credit to the template creator). Planned expansion time permitting.
 
-Minimalistic Portfolio website made using [Astro](https://astro.build/) and [daisyUI](https://daisyui.com/).
-Template Copied from [Shone Binu](https://github.com/shonebinu/portfolio)
+## Credits
+- Initial template and design by [shonebinu](https://github.com/shonebinu/portfolio).
+    https://astro.build/themes/details/minimalistic-portfolio/

@@ -28,7 +28,7 @@ export const header: Header = { logoTitle: "MB" };
 export const footer: Footer = {
   // parses html
   content:
-    "Made by Matthew Bridge • <a href='https://github.com/EpikRatt/EpikRatt.github.io' class='link'>Source Code</a>",
+    "Made by Matthew Bridge • <a href='https://github.com/EpikRatt/EpikRatt.github.io' class='link'>Source Code</a> • Theme Inspired by <a href='https://github.com/shonebinu/portfolio' class='link'>shonebinu</a>",
 };
 
 export const about: About = {
@@ -46,23 +46,45 @@ export const about: About = {
     { icon: "Linkedin", href: "https://www.linkedin.com/in/matthew-l-bridge" },
   ],
   resumeHref:
-    "https://docs.google.com/document/d/1mRAC7ekFLeKbJV7AjhhhxAJ1fN7XGpqvDKUFrRuNclU/edit?usp=share_link",
+    "https://drive.google.com/file/d/1b4Bus4aoiGnSJsaQcoB3ZrkDbvHwArI4/view?usp=share_link",
+    
     education: [
     {
-      title: "Bachelor of Computer Science",
-      timeline: "Sept 2023 - May 2027",
       institution: "University of Massachusetts Dartmouth • Dartmouth, MA",
+      timeline: "Sept 2023 - May 2027",
+      subtitle: "Bachelor of Computer Science • 3.4 GPA • Dean's List",
       description:
-        "Studied core computer science fundamentals including Data Structures/Algorithms, Operating Systems, Machine Learning and Agential AI. With coding experience in Java, C/C#, JavaScript, and Python.",
+        "Studied CS fundamentals including Data Structures, Operating Systems, Machine Learning and Agential AI. With coding experience in Java, C/C#, JavaScript, and Python.<br />While attending I have helped in the labs as Lab Mentor and in the Sustainability club with computer repair.",
+    },
+    {
+      institution: "Upper Cape Cod Technical Highschool • Bourne, MA",
+      timeline: "Sept 2015 - May 2019",
+      subtitle: "Information Technology Shop • 3.3 GPA • Top Shop Award",
+      description:
+        "Gained foundational skills in Networking, Operating Systems, Hardware, and Programming. Worked on the School Help desk supporting both staff and students.",
     },
   ],
     workExperience: [
     {
-      title: "Test",
-      timeline: "May 2024 - Oct 2024",
-      company: "Master Millwork • Wareham, Massachusetts",
+      company: "Master Millwork • Wareham, MA",
+      timeline: "June 2022 - August 2023",
+      subtitle: "IT Support Specialist",
       description:
-        "Update Description.",
+        "Coordinated with an external MSP to support 90+ users across hardware and software platforms. Administered Microsoft 365 and Windows Server environments to maintain system integrity and security.",
+    },
+    {
+      company: "SencorpWhite • Barnstable, MA",
+      timeline: "June 2019 - June 2022",
+      subtitle: "IT Intern • Desktop Analyst",
+      description:
+        "Collaborated in a 4-person team to support 200+ users and manage the company Help Desk. Performed administration for Microsoft 365 and Windows Server OS while documenting repair procedures.",
+    },
+    {
+      company: "Kool Kone • Wareham, MA",
+      timeline: "April 2016 - March 2020",
+      subtitle: "Dish Washer • Fry Cook",
+      description:
+        "Optimized kitchen workflows in a high-volume environment to ensure timely order delivery. Trained and onboarded new hires on operational standards and safety procedures.",
     },
   ],
   // parses html

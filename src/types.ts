@@ -14,17 +14,17 @@ interface IconLink {
   href: string;
 }
 
-interface WorkExperience {
-  title: string;
+interface Education {
+  institution: string;
   timeline: string;
-  company: string;
+  subtitle: string;
   description: string;
 }
 
-interface Education {
-  title: string;
+interface WorkExperience {
+  company: string;
   timeline: string;
-  institution: string;
+  subtitle: string;
   description: string;
 }
 
