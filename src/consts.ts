@@ -54,7 +54,7 @@ export const about: About = {
       timeline: "Sept 2023 - May 2027",
       subtitle: "Bachelor of Computer Science • 3.4 GPA • Dean's List",
       description:
-        "Studied CS fundamentals including Data Structures, Operating Systems, Machine Learning and Agential AI. With coding experience in Java, C/C#, JavaScript, and Python.<br />While attending I have helped in the labs as Lab Mentor and in the Sustainability club with computer repair.",
+        "Studying CS fundamentals including Data Structures, Operating Systems, Machine Learning and Agential AI. With coding experience in Java, C/C#, JavaScript, and Python.<br />While attending I have helped in the labs as Lab Mentor and in the Sustainability club with computer repair.",
     },
     {
       institution: "Upper Cape Cod Technical Highschool • Bourne, MA",
