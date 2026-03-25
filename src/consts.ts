@@ -3,7 +3,7 @@
 import type { Header, Footer, About, Project } from "./types.ts";
 
 import ProfilePic from "./assets/profile-pic.jpg";
-import BriefImage from "./assets/projects/brief.svg";
+import PlaceHolderImage from "./assets/projects/placeholder.svg";
 
 export const SITE_URL: string = "https://matthewbridge.com";
 
@@ -47,8 +47,8 @@ export const about: About = {
   ],
   resumeHref:
     "https://drive.google.com/file/d/1b4Bus4aoiGnSJsaQcoB3ZrkDbvHwArI4/view?usp=share_link",
-    
-    education: [
+
+  education: [
     {
       institution: "University of Massachusetts Dartmouth • Dartmouth, MA",
       timeline: "Sept 2023 - May 2027",
@@ -64,7 +64,7 @@ export const about: About = {
         "Gained foundational skills in Networking, Operating Systems, Hardware, and Programming. Worked on the School Help desk supporting both staff and students.",
     },
   ],
-    workExperience: [
+  workExperience: [
     {
       company: "Master Millwork • Wareham, MA",
       timeline: "June 2022 - August 2023",
@@ -94,11 +94,20 @@ export const about: About = {
 
 export const projects: Project[] = [
   {
-    logoImage: BriefImage,
-    title: "Agentic Calendar/Task Manager",
-    techs: ["React", "TypeScript"],
+    logoImage: PlaceHolderImage,
+    title: "Agentic Systems in Unity",
+    techs: ["Unity", "C#", "Python", "ML-Agents"],
     description:
-      "Currently in Development. Please pardon our dust!",
+      "Developing an autonomous decision-making agent using the ML-Agents pipeline in Unity, that will maximize its output(Money) while managing needs(Hunger and Energy) in a simulated room.",
+    sourceHref: "https://github.com/EpikRatt/Time-is-Money",
+    liveHref: "",
+  },
+  {
+    logoImage: PlaceHolderImage,
+    title: "Machine Learning Project",
+    techs: ["Python", "Machine Learning"],
+    description:
+      "Following the machine learning pipeline to solve a problem.",
     sourceHref: "",
     liveHref: "",
   },
